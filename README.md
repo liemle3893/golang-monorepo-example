@@ -36,3 +36,5 @@ PR's are welcome!
 
 ## Misc
 https://tech.mobingi.com/2018/09/25/ouchan-monorepo.html
+
+## Inprised by: https://github.com/flowerinthenight/golang-monorepo
