@@ -11,9 +11,10 @@ jobs:
     - run:
         name: build
         shell: /bin/bash
+        environment: 
+          CI_COMMIT_BEFORE_SHA: << pipeline.git.base_revision >>
+          CI_COMMIT_SHA: <<pipeline.git.revision>>
+          COMMIT_ID: <<pipeline.git.revision>>
         command: |
-          export CI_COMMIT_BEFORE_SHA=<< pipeline.git.base_revision >>
-          export CI_COMMIT_SHA=<<pipeline.git.revision>>
-          export COMMIT_ID=<<pipeline.git.revision>>
           chmod +x ./build.sh
           ./build.sh
