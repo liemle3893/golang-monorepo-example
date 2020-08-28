@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/liemle3893/golang-monorepo.svg?style=svg)](https://circleci.com/gh/liemle3893/golang-monorepo)
+
 ## Overview
 
 This is an example of a golang-based monorepo. It has the following features:
